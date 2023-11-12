@@ -10,7 +10,7 @@ class Confirm {
     Math.floor(Math.random() * 9000) + 1000
   }
 
-  static create = () => {
+  static create = (data) => {
     this.#list.push(new Confirm(data))
 
     setTimeout(() => {
